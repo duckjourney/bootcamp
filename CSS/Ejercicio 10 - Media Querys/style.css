@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BIG BIG BIG BIG BIG BIG BIG BIG */
+
+@media (width >= 1024px) {
+
+    body {
+        min-height: 100vh;
+        padding: 20px;
+    }
+    
+    .orange1 {
+        width: 49.9%;
+        height: 70px;
+        background-color: orange;
+        position: relative;
+        float: left;
+    }
+    
+    .orange2 {
+        width: 49.9%;
+        height: 70px;
+        background-color: orange;
+        position: relative;
+        float: right;
+    }
+
+    .greenyellow {
+        background-color: greenyellow;
+        width: 100%;
+        height: 400px;
+        position:relative;
+        top: 80px
+    }
+
+    .blue1 {
+        width: 33%;
+        background-color: blue;
+        height: 270px;
+        position: relative;
+        top: 90px;
+    }
+
+    .blue2 {
+        width: 33%;
+        background-color: blue;
+        height: 270px;
+        float: right;
+        position: relative;
+        bottom: 180px;
+    }
+
+    .blue3 {
+        width: 33%;
+        background-color: blue;
+        height: 270px;
+        float: right;
+        position: relative;
+        right: 5px;
+        position: relative;
+        bottom: 180px;
+    }
+
+}
+
+/* MEDIUM MEDIUM MEDIUM MEDIUM MEDIUM  */
+
+@media (768px <= width <= 1024px) {
+
+    body {
+        min-height: 100vh;
+        padding: 20px;
+    }
+    
+    .orange1 {
+        width: 100%;
+        height: 50px;
+        background-color: orange;
+        margin-right: 2px;
+    }
+    
+    .orange2 {
+        width: 100%;
+        height: 50px;
+        background-color: orange;
+        margin-left: 2px;
+        position: relative;
+        top: 2px;
+        left: -2px;
+    }
+
+    .greenyellow {
+        background-color: greenyellow;    
+        width: 100%;    
+        margin: 2px;
+        height: 400px;
+        position:relative;
+        top: 15px;
+        right: 1px;
+    }
+
+    .blue1 {
+        width: 100%;
+        background-color: blue;
+        height: 70px;
+        position: relative;
+        top: 25px;
+    }
+
+    .blue2 {
+        width: 100%;
+        background-color: blue;
+        height: 70px;
+        position: relative;
+        top: 30px;
+    }
+
+    .blue3 {
+        width: 100%;
+        background-color: blue;
+        height: 70px;
+        position: relative;
+        top: 35px;
+    }
+
+}
+
+/* SHORT SHORT SHORT SHORT SHORT */
+
+@media (320px <= width <= 768px) {
+
+    body {
+        min-height: 100vh;
+        padding: 20px;
+    }
+    
+    .orange1 {
+        width: 100%;
+        height: 50px;
+        background-color: orange;
+        margin-right: 2px;
+    }
+    
+    .orange2 {
+        width: 100%;
+        height: 50px;
+        background-color: orange;
+        margin-left: 2px;
+        position: relative;
+        top: 2px;
+        left: -2px;
+    }
+
+    .greenyellow {
+        background-color: greenyellow;        
+        width: 100%;
+        margin: 2px;
+        height: 130px;
+        position:relative;
+        top: 15px
+    }
+
+    .blue1 {
+        width: 100%;
+        background-color: blue;
+        height: 400px;
+        position: relative;
+        top: 25px;
+    }
+
+    .blue2 {
+        width: 100%;
+        background-color: blue;
+        height: 400px;
+        position: relative;
+        top: 30px;
+    }
+
+    .blue3 {
+        width: 100%;
+        background-color: blue;
+        height: 400px;
+        position: relative;
+        top: 35px;
+    }
+}
+
+/* TINY TINY TINY TINY */
+
+@media (width < 320px) {
+
+    body {
+        min-height: 100vh;
+        padding: 20px;
+    }
+    
+    .orange1 {
+        width: 100%;
+        height: 50px;
+        background-color: orange;
+        margin-right: 2px;
+    }
+    
+    .orange2 {
+        width: 100%;
+        height: 50px;
+        background-color: orange;
+        margin-left: 2px;
+        position: relative;
+        top: 2px;
+        left: -2px;
+    }
+
+    .greenyellow {
+        background-color: greenyellow;        
+        width: 100%;
+        margin: 2px;
+        height: 130px;
+        position:relative;
+        top: 15px
+    }
+
+    .blue1 {
+        width: 100%;
+        background-color: blue;
+        height: 400px;
+        position: relative;
+        top: 25px;
+    }
+
+    .blue2 {
+        width: 100%;
+        background-color: blue;
+        height: 400px;
+        position: relative;
+        top: 30px;
+    }
+
+    .blue3 {
+        width: 100%;
+        background-color: blue;
+        height: 400px;
+        position: relative;
+        top: 35px;
+    }
+}
+

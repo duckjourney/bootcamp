@@ -1,0 +1,23 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: auto;
+    width: 400px;
+    padding: 50px;
+    border-top-style:dotted ;
+    border-top-width: 4px;
+    border-top-color: green;
+    border-bottom-style:solid ;
+    border-bottom-width: 4px;
+    border-bottom-color: red;
+    border-right-style:dashed ;
+    border-right-width: 7px;
+    border-right-color: blue;
+    border-left-style:double ;
+    border-left-width: 7px;
+    border-left-color: black;
+}

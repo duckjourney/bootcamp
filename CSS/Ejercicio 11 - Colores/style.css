@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: menlo, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 90%;
+    width: 700px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+/* primary colors */
+
+.primary {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.red {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: rgb(0, 208, 3);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.blue {
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* secondary colors */
+
+.secondary {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.first-row {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.second-row {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.third-row {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* secondary - first row */
+
+.red2 {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.blue2 {
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.pink2 {
+    background-color: rgb(255, 0, 174);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* secondary - second row */
+
+.green2 {
+    background-color: rgb(0, 208, 3);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.cyan2 {
+    background-color: rgb(0, 255, 200);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* secondary - third row */
+
+.yellow2 {
+    background-color: rgb(238, 255, 0);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}

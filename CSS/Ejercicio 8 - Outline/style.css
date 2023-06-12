@@ -1,0 +1,13 @@
+h1 {
+    margin: 20px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    outline: dotted greenyellow 15px;
+}
+
+h1:hover {
+    width: 220px;
+    height: 220px;
+    outline: dotted rgb(0, 0, 0) 10px;
+}

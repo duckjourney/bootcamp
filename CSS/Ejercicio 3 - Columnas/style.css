@@ -1,0 +1,25 @@
+body {
+    background-color: bisque;
+}
+
+span {
+    color: red;
+}
+
+span:hover {
+    color: blueviolet;
+}
+
+p {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style:solid;
+    column-rule-color: red;
+    column-rule-width: 2px;
+}
+
+p::selection {
+    color: red;
+    background-color: orange;
+}
+

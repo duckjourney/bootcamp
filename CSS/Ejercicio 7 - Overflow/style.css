@@ -1,0 +1,8 @@
+
+p {
+    background-color: yellowgreen;
+    width: 200px;
+    height: 70px;
+    overflow: auto; 
+    /* Cambiar "auto" por "hidden" para eliminar el scroll vertical */
+}
