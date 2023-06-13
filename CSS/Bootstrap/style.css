@@ -12031,13 +12031,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-* {
-  background-color: black;
-}
-
-@media (min-width: 500px) and (max-width: 999.98px) {
-  * {
-    background-color: aqua;
-  }
 }/*# sourceMappingURL=style.css.map */
